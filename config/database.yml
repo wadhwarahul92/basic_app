@@ -21,14 +21,12 @@ test:
   database: db/test.sqlite3
 
 production:
-  <<: *default'
   adapter: postgres
   database: djc43mqvq7ljt
   host: ec2-54-243-63-130.compute-1.amazonaws.com
   user: agpiwjahqalgvt
   password: zIn1MVAsD-5eTpeIXAiSxkK0bM
   uri: postgres://agpiwjahqalgvt:zIn1MVAsD-5eTpeIXAiSxkK0bM@ec2-54-243-63-130.compute-1.amazonaws.com:5432/djc43mqvq7ljt
-
 
 
 
