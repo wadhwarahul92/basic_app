@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.3p173'
+ruby '2.2.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
@@ -22,7 +22,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-group: :production  do
+
+group :production  do
   gem 'rails_12factor'
   gem "pg"
 end
